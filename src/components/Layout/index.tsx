@@ -43,7 +43,7 @@ const Layout = ({
   toggleTheme: () => void;
 }) => {
   const { width } = useWindowSize();
-  const { shrink } = useStateContext();
+  const { isMobile, shrink } = useStateContext();
 
   const [asideWidth, setAsideWidth] = useState(500);
 
@@ -63,7 +63,7 @@ const Layout = ({
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Header />
-      <AsideProfilePic width={asideWidth} />
+      <AsideProfilePic width={asideWidth} id={isMobile ? "home" : ""} />
       <StyledMain width={asideWidth}>
         {children}
         <Footer />

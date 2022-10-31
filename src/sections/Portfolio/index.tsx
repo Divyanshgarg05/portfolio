@@ -35,7 +35,7 @@ const portfolioData = [
 const Portfolio = () => {
   return (
     <section
-      id="publications"
+      id="courses"
       className="relative flex items-center justify-center py-20 border-b min-h-fit border-b-gray-300 lg:py-52"
     >
       <div className="w-full max-w-xl px-4 sm:px-0">

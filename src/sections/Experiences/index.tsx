@@ -230,7 +230,7 @@ const Experiences = () => {
                 </>
               )}
             </Disclosure>
-            <Disclosure as="div" className="mt-2" defaultOpen>
+            <Disclosure as="div" className="mt-2">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-2 text-base font-medium text-left rounded-lg bg-bluePrimary/20 text-bluePrimary hover:bg-bluePrimary/25 focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
@@ -272,7 +272,7 @@ const Experiences = () => {
                 </>
               )}
             </Disclosure>
-            <Disclosure as="div" className="mt-2" defaultOpen>
+            <Disclosure as="div" className="mt-2">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-2 text-base font-medium text-left rounded-lg bg-bluePrimary/20 text-bluePrimary hover:bg-bluePrimary/25 focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
@@ -312,11 +312,13 @@ const Experiences = () => {
                 </>
               )}
             </Disclosure>
-            <Disclosure as="div" className="mt-2" defaultOpen>
+            <Disclosure as="div" className="mt-2">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-2 text-base font-medium text-left rounded-lg bg-bluePrimary/20 text-bluePrimary hover:bg-bluePrimary/25 focus:outline-none focus-visible:ring focus-visible:ring-opacity-75">
-                    <span>Other Experience</span>
+                    <span className={`${open ? "font-bold" : ""}`}>
+                      Other Experience
+                    </span>
                     <FaChevronDown
                       className={`${
                         open ? "rotate-180 transform" : ""

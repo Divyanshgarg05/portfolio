@@ -25,7 +25,7 @@ const Card = ({
   center = false,
 }: CardInterface) => {
   return (
-    <BaseCard className="text-textPrimary">
+    <BaseCard className="text-textPrimary rounded-xl">
       {image && (
         <div className="relative w-full aspect-[1]">
           <Image src={image} alt={title} layout="fill" objectFit="cover" />

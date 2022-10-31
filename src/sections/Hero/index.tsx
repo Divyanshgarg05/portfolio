@@ -7,7 +7,7 @@ const Hero = () => {
   const { isMobile } = useStateContext();
   return (
     <section
-      id="home"
+      id={!isMobile ? "home" : ""}
       className="relative flex items-center justify-center py-20 border-b min-h-fit border-b-gray-300 lg:min-h-screen lg:py-0"
     >
       <div className="w-full max-w-xl px-4 sm:px-0">

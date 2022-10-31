@@ -42,9 +42,10 @@ export const menuItems = [
   { id: 1, title: "Home", triggerBy: "home" },
   // { id: 2, title: "Research", triggerBy: "research" },
   { id: 3, title: "Academics", triggerBy: "academics" },
-  { id: 4, title: "Skills", triggerBy: "skills" },
-  { id: 5, title: "Publications", triggerBy: "publications" },
+  { id: 4, title: "Olympiads", triggerBy: "olympiads" },
+  { id: 5, title: "Courses", triggerBy: "courses" },
   { id: 6, title: "Experience", triggerBy: "experience" },
+  { id: 6, title: "Activities", triggerBy: "activities" },
   { id: 7, title: "Contact", triggerBy: "contact" },
 ];
 

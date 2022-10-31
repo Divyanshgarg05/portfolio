@@ -77,20 +77,20 @@ const ButtonStyled = styled.button<Partial<ButtonInterface>>`
   &:active:not(:disabled),
   &:focus {
     outline: 0;
-    border-color: ${({ variant }) => {
+    border-color: ${({ variant, theme }) => {
       switch (variant) {
         case "primary":
-          return "salmon";
+          return theme.colors.primary2Hover;
         case "ghost":
           return "transparent";
         default:
           return "transparent";
       }
     }};
-    background-color: ${({ variant }) => {
+    background-color: ${({ variant, theme }) => {
       switch (variant) {
         case "primary":
-          return "salmon";
+          return theme.colors.primary2Hover;
         case "ghost":
           return "transparent";
         default:

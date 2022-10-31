@@ -9,8 +9,8 @@ module.exports = {
       colors: {
         textPrimary: "#4c4c4c",
         sideText: "#F3F4F6",
-        brownPrimary: "#c57653",
-        redSecondary: "#F5296E",
+        bluePrimary: "#16a5c3",
+        darkBlueSecondary: "#13788c",
       },
       screens: settingsScreens,
       fontSize: settingsFontSizes,

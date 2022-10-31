@@ -4,7 +4,7 @@ export interface SkillsInterface {
   id: number;
   icon: ReactNode | null;
   title: string;
-  description: string;
+  description: any;
   btnText: string;
   btnLink: string;
 }

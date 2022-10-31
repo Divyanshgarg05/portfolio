@@ -7,7 +7,8 @@ export const lightTheme = {
   background: "#363537",
   colors: {
     primary1: "#F5296E",
-    primary2: "#c57653",
+    primary2: "#16a5c3",
+    primary2Hover: "#13788c",
   },
   social: {
     facebook: "#4267B2",

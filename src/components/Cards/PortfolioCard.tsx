@@ -28,9 +28,9 @@ const PortfolioCardStyled = styled.div<any>`
     position: absolute;
     top: 1rem;
     left: 1rem;
+    transition: all 0.8s ease-in-out;
   }
   & h2 {
-    font-size: 20px;
     opacity: 0;
     color: white;
     transition: opacity 1s;
@@ -91,12 +91,11 @@ const PortfolioCard = ({ data }: { data: any }) => {
       {link ? (
         <PortfolioCardStyled
           bg={image}
-          className="shadow-sm hover:shadow-lg border"
+          className="border shadow-sm hover:shadow-lg"
         >
-          {/* <div className="innerContainer">
-            <h2 className="text-lg line-clamp-2">{title}</h2>
-            <p className="line-clamp-5">{desc}</p>
-          </div> */}
+          <div className="innerContainer">
+            <h2 className="text-sm line-clamp-2">{title}</h2>
+          </div>
           <div className="button-container">
             <Link href={link}>
               <a target="_blank" rel="noopener noreferrer">

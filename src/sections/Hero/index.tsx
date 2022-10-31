@@ -8,27 +8,12 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-fit py-20 flex items-center justify-center border-b border-b-gray-300 lg:min-h-screen lg:py-0"
+      className="relative flex items-center justify-center py-20 border-b min-h-fit border-b-gray-300 lg:min-h-screen lg:py-0"
     >
-      <div className="max-w-xl w-full px-4 sm:px-0">
+      <div className="w-full max-w-xl px-4 sm:px-0">
         <h1 className="text-5xl font-bold">{profile.name}</h1>
-        <p className="text-sm text-primary">
-          Hi! I am Maansi presently pursuing my Ph.D. at Department of
-          Chemistry, Indian Institute of Technology Patna (IIT Patna).
-          <br />
-          Currently, working under the Supervision of{" "}
-          <a
-            href="https://scholar.google.co.in/citations?user=W3JkCN8AAAAJ&hl=en"
-            target={"_blank"}
-            className="text-[#c57653]"
-            rel="noreferrer"
-          >
-            Prof. Prolay das
-          </a>{" "}
-          on application of Carbon dot conjugation with DNA and other
-          biomolecules.
-        </p>
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2">
+        <p className="text-sm text-primary">Intro here</p>
+        <div className="grid grid-cols-1 mt-6 sm:grid-cols-2 gap-x-8 gap-y-2">
           {AboutData.map((about: AboutInterface) => (
             <p key={about.key}>
               <span className="font-bold">{about.key}:</span>&nbsp;
@@ -57,7 +42,7 @@ const Hero = () => {
             <span className="text-textPrimary">{profile.address}</span>
           </p>
         </div>
-        <ul className="mt-8 flex items-center space-x-6">
+        <ul className="flex items-center mt-8 space-x-6">
           {profile.social.map((social) => (
             <li key={social.id} className="icon hover:-mt-2">
               <a href={social.link} target="_blank" rel="noopener noreferrer">
@@ -68,10 +53,10 @@ const Hero = () => {
         </ul>
       </div>
       <div
-        className="absolute -rotate-90 -right-40 select-none -z-1 hidden lg:block"
+        className="absolute hidden -rotate-90 select-none -right-64 -z-1 lg:block"
         style={{ zIndex: -1 }}
       >
-        <h4 className="text-9xl font-extrabold text-sideText uppercase">
+        <h4 className="font-extrabold uppercase text-9xl text-sideText">
           {profile.name.split(" ")[0]}
         </h4>
       </div>

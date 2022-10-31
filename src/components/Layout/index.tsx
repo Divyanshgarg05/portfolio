@@ -12,7 +12,7 @@ import { scrollSmoothTo } from "@utils/lib";
 const AsideProfilePic = styled.div<any>`
   width: ${({ width }) => width}px;
   height: 100%;
-  background: url("/images/profile_pic.jpg");
+  background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@ const AsideProfilePic = styled.div<any>`
   @media (max-width: 1024px) {
     width: 100%;
     height: 100%;
-    background: url(/images/profile_pic.jpg);
+    background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 156%;
@@ -70,7 +70,7 @@ const Layout = ({
       </StyledMain>
       {shrink && (
         <FaArrowUp
-          className="w-10 h-10 fixed right-6 bottom-6 text-white z-20 cursor-pointer hover:bg-[#F5296E] transition duration-300 ease-in-out bg-[#c57653] rounded-full p-3"
+          className="fixed z-20 w-10 h-10 p-3 text-white transition duration-300 ease-in-out rounded-full cursor-pointer right-6 bottom-6 hover:bg-darkBlueSecondary bg-bluePrimary"
           onClick={() => scrollSmoothTo("home")}
         />
       )}

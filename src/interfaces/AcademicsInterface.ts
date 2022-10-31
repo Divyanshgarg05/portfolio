@@ -4,6 +4,7 @@ export interface AcademicsInterface {
     dates: string;
     title: string;
     cgpa?: number;
+    text?: string;
     percentage?: number;
     organization: string;
   };

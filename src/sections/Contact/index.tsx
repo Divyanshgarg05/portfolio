@@ -61,7 +61,7 @@ const Contact = () => {
         <div className="mt-10">
           <div
             id="form-container"
-            className="shadow-lg p-6 rounded-lg bg-gradient-to-r from-brownPrimary/5 via-redSecondary/5 to-brownPrimary/5"
+            className="shadow-lg p-6 rounded-lg bg-gradient-to-r from-bluePrimary/5 via-redSecondary/5 to-bluePrimary/5"
           >
             <form
               onSubmit={handleSubmit(onSubmitForm)}

@@ -6,16 +6,16 @@ import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 export const profile = {
-  name: "Maansi Aggarwal",
+  name: "Divyansh Garg",
   age: 25,
-  email: "maansi_2121ch12@iitp.ac.in",
-  phone: "+91 97361 26334",
-  address: "#206, Block 4, Department of Chemistry, IIT Patna.",
+  email: "divyanshdg05@gmail.com",
+  phone: "+91 81144 96883",
+  address: "A-221, Malviya Nagar, Jaipur, Rajasthan.",
   country: "India",
-  website: "https://maansi-aggarwal.vercel.app/",
+  website: "https://divyanshcodes.com",
   languages: ["English", "Hindi"],
   image:
-    "https://images.pexels.com/photos/5477855/pexels-photo-5477855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg",
   social: [
     {
       id: 1,
@@ -69,49 +69,31 @@ export const academicsData: AcademicsInterface[] = [
   {
     id: 1,
     row: {
-      dates: "2021-Present",
-      title: "Ph.D. in Chemistry",
-      cgpa: 8.79,
-      organization: "Indian Institute of Technology, Patna.",
+      dates: "2022-Present",
+      title: "Grade 12",
+      text: "Subjects: Physics, Chemistry, Mathematics, English, and Information Practices",
+      organization:
+        "Bharatiya Vidya Bhavan Vidyashram, Sector-26, Pratap Nagar, Jaipur.",
     },
   },
   {
     id: 2,
     row: {
-      dates: "2018-2020",
-      title: "M.Sc. in Chemistry",
-      cgpa: 9.74,
-      organization: "Thapar Institute of Engineering and Technology, Patiala.",
+      dates: "2021-2022",
+      title: "Grade 11",
+      percentage: 81,
+      organization:
+        "Bharatiya Vidya Bhavan Vidyashram, Sector-26, Pratap Nagar, Jaipur.",
     },
   },
   {
     id: 3,
     row: {
-      dates: "2015-2018",
-      title: "B.Sc. Non Medical",
-      percentage: 83.25,
+      dates: "2020-2021",
+      title: "Grade 10",
+      percentage: 89,
       organization:
-        "M.C.M DAV College for Women, Punjab University, Chandigarh.",
-    },
-  },
-  {
-    id: 4,
-    row: {
-      dates: "2014-2015",
-      title: "12th Class (CBSE)",
-      percentage: 92,
-      organization:
-        "Holy Heart Senior Secondary School, Nahan, Himachal Pradesh.",
-    },
-  },
-  {
-    id: 5,
-    row: {
-      dates: "2012-2013",
-      title: "10th Class (CBSE)",
-      cgpa: 9.8,
-      organization:
-        "Holy Heart Senior Secondary School, Nahan, Himachal Pradesh.",
+        "Bharatiya Vidya Bhavan Vidyashram, Sector-26, Pratap Nagar, Jaipur.",
     },
   },
 ];
@@ -120,56 +102,104 @@ export const skillsData: SkillsInterface[] = [
   {
     id: 1,
     icon: null,
-    title: "FTIR",
-    description: "",
+    title: "National Level Science Talent Search Examination (NSTSE)",
+    description: (
+      <p>
+        <ul className="pl-4 list-disc">
+          <li>Organized by the Unified Council</li>
+          <li>In 2017 secured</li>
+          <ul className="pl-4 list-decimal">
+            <li>
+              <b>481</b> state rank (Rajasthan)
+            </li>
+            <li>
+              <b>5738/1,000,000+</b> Physics
+            </li>
+            <li>
+              <b>11,583/1,000,000+</b> overall (Mathematics, Physics, Chemistry,
+              Biology, General Questions)
+            </li>
+          </ul>
+        </ul>
+      </p>
+    ),
     btnText: "",
     btnLink: "",
   },
   {
     id: 2,
     icon: null,
-    title: "HPLC",
-    description: "",
+    title: "International Mathematics Olympiad (IMO)",
+    description: (
+      <p>
+        <ul className="pl-4 list-disc">
+          <li>Organized by the Science Olympiad Foundation</li>
+          <li>Received appreciation certificate for years:</li>
+          <ul className="pl-4 list-decimal">
+            <li>November - December 2015</li>
+            <li>December 2014</li>
+            <li>December 2013</li>
+          </ul>
+        </ul>
+      </p>
+    ),
     btnText: "",
     btnLink: "",
   },
   {
     id: 3,
     icon: null,
-    title: "AFM",
-    description: "",
+    title: "National Science Olympiad (NSO)",
+    description: (
+      <p>
+        <ul className="pl-4 list-disc">
+          <li>Organized by the Science Olympiad Foundation</li>
+          <li>Received appreciation certificate for years:</li>
+          <ul className="pl-4 list-decimal">
+            <li>November 2016</li>
+            <li>October - November 2015</li>
+            <li>December 2013</li>
+          </ul>
+        </ul>
+      </p>
+    ),
     btnText: "",
     btnLink: "",
   },
   {
     id: 4,
     icon: null,
-    title: "UV",
-    description: "",
+    title: "International English Olympiad (IEO)",
+    description: (
+      <p>
+        <ul className="pl-4 list-disc">
+          <li>Organized by the Science Olympiad Foundation</li>
+          <li>Received appreciation certificate for years:</li>
+          <ul className="pl-4 list-decimal">
+            <li>January 2017</li>
+            <li>January 2016</li>
+          </ul>
+        </ul>
+      </p>
+    ),
     btnText: "",
     btnLink: "",
   },
   {
     id: 5,
     icon: null,
-    title: "Circular Dichroism",
-    description: "",
-    btnText: "",
-    btnLink: "",
-  },
-  {
-    id: 6,
-    icon: null,
-    title: "Photo Luminescence",
-    description: "",
-    btnText: "",
-    btnLink: "",
-  },
-  {
-    id: 7,
-    icon: null,
-    title: "Gel Electrophorsis",
-    description: "",
+    title: "National Astronomy and Science Olympiad (NASO)",
+    description: (
+      <p>
+        <ul className="pl-4 list-disc">
+          <li>Organized by the NAVARS EDUTECH in 9 countries</li>
+          <li>Received appreciation certificate for years:</li>
+          <ul className="pl-4 list-decimal">
+            <li>2017-2018</li>
+          </ul>
+        </ul>
+      </p>
+    ),
     btnText: "",
     btnLink: "",
   },

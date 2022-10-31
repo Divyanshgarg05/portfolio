@@ -12,7 +12,7 @@ const Hero = () => {
     >
       <div className="w-full max-w-xl px-4 sm:px-0">
         <h1 className="text-5xl font-bold">{profile.name}</h1>
-        <p className="text-sm text-primary">Intro here</p>
+        {/* <p className="text-sm text-primary">Intro here</p> */}
         <div className="grid grid-cols-1 mt-6 sm:grid-cols-2 gap-x-8 gap-y-2">
           {AboutData.map((about: AboutInterface) => (
             <p key={about.key}>
@@ -42,7 +42,7 @@ const Hero = () => {
             <span className="text-textPrimary">{profile.address}</span>
           </p>
         </div>
-        <ul className="flex items-center mt-8 space-x-6">
+        {/* <ul className="flex items-center mt-8 space-x-6">
           {profile.social.map((social) => (
             <li key={social.id} className="icon hover:-mt-2">
               <a href={social.link} target="_blank" rel="noopener noreferrer">
@@ -50,7 +50,7 @@ const Hero = () => {
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
       <div
         className="absolute hidden -rotate-90 select-none -right-64 -z-1 lg:block"

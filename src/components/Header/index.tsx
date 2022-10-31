@@ -59,7 +59,7 @@ const Header = () => {
 
   const downloadCV = () => {
     if (window && typeof window !== undefined) {
-      window.open("/files/Maansi CV.pdf", "_blank");
+      window.open("/files/divyansh_resume.pdf", "_blank");
     }
   };
 

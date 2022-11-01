@@ -3,7 +3,7 @@ import { AcademicsInterface } from "@interfaces/AcademicsInterface";
 import { iconProps } from "@interfaces/IconProps";
 import { SkillsInterface } from "@interfaces/SkillsInterface";
 import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const profile = {
   name: "Divyansh Garg",
@@ -15,32 +15,19 @@ export const profile = {
   website: "https://divyanshcodes.com",
   languages: ["English", "Hindi"],
   image:
-    "https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg",
+    "https://res.cloudinary.com/manavkaushal/image/upload/v1667278407/divyansh_pic_tdyuwr.jpg",
   social: [
     {
       id: 1,
-      title: "facebook",
-      link: "https://www.facebook.com/mansi.singla.391",
-      icon: <FaFacebookF {...iconProps} style={{ color: "#4267B2" }} />,
-    },
-    {
-      id: 2,
       title: "linkedIn",
-      link: "https://www.linkedin.com/in/maansi-aggarwal-03a1271b8/",
+      link: "",
       icon: <FaLinkedinIn {...iconProps} style={{ color: "#0072b1" }} />,
-    },
-    {
-      id: 3,
-      title: "instagram",
-      link: "https://www.instagram.com/maansingla/",
-      icon: <FaInstagram {...iconProps} style={{ color: "#bc2a8d" }} />,
     },
   ],
 };
 
 export const menuItems = [
   { id: 1, title: "Home", triggerBy: "home" },
-  // { id: 2, title: "Research", triggerBy: "research" },
   { id: 3, title: "Academics", triggerBy: "academics" },
   { id: 4, title: "Olympiads", triggerBy: "olympiads" },
   { id: 5, title: "Courses", triggerBy: "courses" },

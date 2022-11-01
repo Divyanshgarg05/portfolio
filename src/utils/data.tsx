@@ -7,7 +7,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 export const profile = {
   name: "Divyansh Garg",
-  age: 25,
+  age: 17,
   email: "divyanshdg05@gmail.com",
   phone: "+91 81144 96883",
   address: "A-221, Malviya Nagar, Jaipur, Rajasthan.",

@@ -12,7 +12,7 @@ import { scrollSmoothTo } from "@utils/lib";
 const AsideProfilePic = styled.div<any>`
   width: ${({ width }) => width}px;
   height: 100%;
-  background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg");
+  background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667278407/divyansh_pic_tdyuwr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@ const AsideProfilePic = styled.div<any>`
   @media (max-width: 1024px) {
     width: 100%;
     height: 100%;
-    background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667202987/profile_pic_graumu.jpg");
+    background: url("https://res.cloudinary.com/manavkaushal/image/upload/v1667278407/divyansh_pic_tdyuwr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 156%;

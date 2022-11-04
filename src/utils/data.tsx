@@ -59,6 +59,7 @@ export const academicsData: AcademicsInterface[] = [
     row: {
       dates: "2022-Present",
       title: "Grade 12",
+      percentage: 96,
       text: "Subjects: Physics, Chemistry, Mathematics, English, and Information Practices",
       organization:
         "Bharatiya Vidya Bhavan Vidyashram, Sector-26, Pratap Nagar, Jaipur.",
@@ -69,7 +70,7 @@ export const academicsData: AcademicsInterface[] = [
     row: {
       dates: "2021-2022",
       title: "Grade 11",
-      percentage: 81,
+      percentage: 71,
       organization:
         "Bharatiya Vidya Bhavan Vidyashram, Sector-26, Pratap Nagar, Jaipur.",
     },

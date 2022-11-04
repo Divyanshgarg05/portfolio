@@ -19,7 +19,7 @@ const Index: NextPage = () => {
           name="description"
           content={`${profile.name.split(" ")[0]}'s Portfolio`}
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.svg" type="image/x-icon" />
       </Head>
 
       <div className="main-area">
